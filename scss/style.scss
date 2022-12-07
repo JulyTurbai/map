@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.map {
+    width: 1125px;
+    height: 752px;
+    margin: 20px auto;
+    background: url(../img/map.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.map__block {
+    width: 369px;
+    height: 390px;
+    display: flex;
+
+}
+.block_country {
+    width: 323px;
+    height: 261px;
+    background: rgba(#191919,34%);
+    
+    
+}
+.map__block_america{
+    width: 377px;
+    height: 776px;
+    background: rgba(#28607f, 75%);
+}
+.map__block_europe {
+    background: rgba(#763883, 75%);
+}
+.map__block_africa {
+    background: rgba(#e3db27, 75%);
+}
+.map__block_asia {
+    background: rgba(#a71715, 75%);
+}
+.map__block_australia {
+    background: rgba(#be7d24, 75%);
+}
+
+
+
